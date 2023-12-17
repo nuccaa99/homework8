@@ -54,3 +54,23 @@
     font-style: italic;
     color: #ea8bbf;
 }
+
+/* #3 */
+
+.word {
+    font-size: 140px;
+    letter-spacing: 20px;
+    animation: lightUp .5s infinite;
+}
+
+@keyframes lightUp {
+    from {
+        color: red;
+    }
+
+    to {
+        color: white;
+    }
+}
+
+/* #4 */
