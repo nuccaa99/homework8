@@ -118,7 +118,7 @@
 /* #5 */
 header {
     padding: 50px;
-    background-color: #2a5d2a;
+    background-color: #0d4953;
 }
 
 ul {
@@ -130,6 +130,7 @@ ul {
     color: #daeedd;
     font-size: 25px;
     text-shadow: 2px 2px 1px black;
+    transition: text-shadow 1s ease-out;
 }
 
 .one:hover,
@@ -141,3 +142,5 @@ ul {
         0px 0px 75px #fbade2;
 
 }
+
+/* #6 */
