@@ -1,0 +1,27 @@
+/* #1 */
+.button_container {
+    background-color: #f0c9df;
+}
+.first_button {
+    width: 250px;
+    height: 100px;
+    margin: 100px;
+    background-color: #ea8bbf;
+    color: white;
+    border: none;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px 1px white inset, 4px 4px 6px 1px black;
+    text-shadow: 5px 5px 6px black;
+
+}
+
+.first_button:active {
+    cursor: pointer;
+    text-shadow: 1px 1px 6px black;
+    box-shadow: 4px 4px 6px 1px black inset, -2px -2px 6px 1px white inset;
+    
+}
+
+/* #2 */
