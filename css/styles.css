@@ -116,3 +116,28 @@
 }
 
 /* #5 */
+header {
+    padding: 50px;
+    background-color: #2a5d2a;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link {
+    color: #daeedd;
+    font-size: 25px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.one:hover,
+.two:hover,
+.three:hover {
+    text-shadow: 0px 0px 5px #ff00ae,
+        0px 0px 25px #fd3cc0,
+        0px 0px 50px #fb6dce,
+        0px 0px 75px #fbade2;
+
+}
