@@ -96,13 +96,14 @@
 }
 
 .spinner_content {
+    font-size: 25px;
+    color: #762251;
+    font-weight: 800;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25px;
-    color: #762251;
-    font-weight: 800;
+    z-index: -1;
 }
 
 @keyframes rotation {
