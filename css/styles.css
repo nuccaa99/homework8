@@ -155,12 +155,6 @@ ul {
     border-radius: 50px;
 }
 
-.loader_content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .loader {
     height: 100%;
@@ -169,6 +163,13 @@ ul {
     animation-timing-function: linear;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+}
+
+.loader_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @keyframes loading {
